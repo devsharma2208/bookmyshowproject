@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmyshow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://logodix.com/logo/2011021.png" alt="logo">
+            <!-- <i class="fa-solid fa-magnifying-glass se_arch"></i> -->
+            <input type="search" name="search" id="src"
+                placeholder="Search for Movies, Events, Plays, Sports and Activities">
+        </div>
+        
+        <div class="btn1" id="btn_1_select">
+            <select name="cites" id="cites">
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi-NCR</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Gwalior">Gwalior</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Surat">Surat</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Agra">Agra</option>
+                <option value="Srinagar">Srinagar</option>
+                <option value="Ranchi">Ranchi</option>
+            </select>
+            <input type="button" value="Sign In" id="sign_btn">
+            <i class="fa-solid fa-bars" style="color: #fdf7f7;"></i>
+        </div>
+    </header>
+    <div class="II_nav">
+        <ul class="strems1 events">
+            <li>Movies</li>
+            <li>Stream</li>
+            <li>Events</li>
+            <li>Plays</li>
+            <li>Sports</li>
+            <li>Activities</li>
+            <li>Buzz</li>
+        </ul>
+        <ul class="strems2 events">
+            <li>ListYourShow</li>
+            <li>Corporates</li>
+            <li>Offers</li>
+            <li>Gift Cards</li>
+        </ul>
+    </div>
+
+    <div class="crousal">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1691045512422_pattekhulgayedesktop.jpg"
+                        class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1690956294065_mirrordesktop.jpg"
+                        class="d-block w-100">
+                </div>
+                <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="movies">
+        <h2>Recommended Movies</h2>
+        <div class="images">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni4yLzEwICAyMzcuNksgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00137215-smxelgjeue-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny41LzEwICA1Ni41SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00359644-nqullkspgw-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTUuOEsgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00356210-syblrugbhn-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzMuMksgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00353537-enfurgamdj-portrait.jpg"
+                    alt="">
+
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC42LzEwICAyMy4ySyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00047401-flfqsnkwwg-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="containt">
+            <div>
+                <h4>Adipurush</h4>
+                <p>Action/ Adventure/ Mythological</p>
+            </div>
+            <div>
+                <h4>Zara Hatke Zara Bachke</h4>
+                <p>Comedy/ Darama/ Romentic</p>
+            </div>
+            <div>
+                <h4>Elemental</h4>
+                <p>Adventure/ Animation/ Comedy</p>
+            </div>
+            <div>
+                <h4>1920: Horrors of the Heart</h4>
+                <p>Horror/ Romentic/ Thriller</p>
+            </div>
+            <div>
+                <h4>The Flash</h4>
+                <p>Action/ Adventure/ Fantasy</p>
+            </div>
+        </div>
+    </section>
+    <div class="extralongimage">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png"
+            alt="">
+    </div>
+
+    <section class="liveevents">
+        <h2>The Best of Live Events</h2>
+        <div class="liveeventsimages">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTU1KyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTcwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NzUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="premiere">
+        <div class="premiereimage">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png"
+                alt="">
+        </div>
+        <h2>Premieres</h2>
+        <p class="newreales">Brand new release every Friday</p>
+        <div class="premieremanyimages">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00352714-zrzrpauvzv-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00358589-aesendsvak-portrait.jpg"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00359055-qhruzspcbs-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00358673-yggsyblttj-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00361962-qwxxzqxqvx-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="sjsvm">
+            <div>
+                <h4>Love Again</h4>
+                <p>English</p>
+            </div>
+            <div>
+                <h4>Asteris & Obelix - The Middle Kingdom</h4>
+                <p>English</p>
+            </div>
+            <div>
+                <h4>Endeavour Series 8</h4>
+                <p>English</p>
+            </div>
+            <div>
+                <h4>I See You</h4>
+                <p>English</p>
+            </div>
+            <div>
+                <h4>Decision To Leave</h4>
+                <p>English</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="eventsHappening">
+        <h2>Events Happening Near You</h2>
+        <div class="eventsHappening_images">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCA2IEp1bCBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00332998-zkxtlaacdq-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361766-urtxawqhqw-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTUuOEsgTGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00356210-syblrugbhn-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAyNCBKdW4gb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00359311-yzthagpbkq-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxIEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00362614-ykfqdybtqc-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="containt">
+            <div>
+                <h4>Darshan Doshi Trio ft. Hashbas and Rickraj Nath</h4>
+                <p>Studio Theatre, Nita Mukesh Ambani Cultural center</p>
+                <p>1.69kms away</p>
+            </div>
+            <div>
+                <h4>Zara Hatke Zara Bachke</h4>
+                <p>Comedy/Darama/Romentic</p>
+                <p>1.63kms away</p>
+            </div>
+            <div>
+                <h4>SANAM LIVE IN CONCERT</h4>
+                <p>Comedy/Darama/Romentic</p>
+                <p>1.63kms away</p>
+            </div>
+            <div>
+                <h4>FROSTYLAND</h4>
+                <p>Phoenix MarketCity:Mumbai</p>
+                <p>1.64kms away</p>
+            </div>
+            <div>
+                <h4>Trinity by Malladi Brothers</h4>
+                <p>Studio Theatre, Nita Mukesh Ambani Cultural center</p>
+                <p>1.69 kms away</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="eventsHappening">
+        <h2>Online Streaming Events</h2>
+        <div class="eventsHappening_images">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxIEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00356491-pakrdugabf-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyIEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00362265-amgteevskj-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdW4%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361355-cceylcjjll-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-V2VkLCAzMSBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00362333-ydkwvbznqc-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyIEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00355836-brxmdwmamt-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="containt">
+            <div>
+                <h4>Blind Dating 40+- Florican</h4>
+                <p>Watch on Zoom.</p>
+            </div>
+            <div>
+                <h4>Secrets Of Personal Finance - MasterClass</h4>
+                <p>Watch on Zoom.</p>
+            </div>
+            <div>
+                <h4>Shaadi - A Romentic Stand up comedy Solo</h4>
+                <p>Watch on Zoom.</p>
+            </div>
+            <div>
+                <h4>Talk Session in English(Ft. Dr Leonardo O.Reis)</h4>
+                <p>Watch on Zoom.</p>
+            </div>
+            <div>
+                <h4>Blind Dating 30+-Florican</h4>
+                <p>Watch on Zoom.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="eventsHappening">
+        <h2>Outdoor Events <img src="https://in.bmscdn.com/discovery-catalog/lib/tr:w-37/new-tag-icon.png" alt=""></h2>
+        <div class="eventsHappening_images">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxIEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361144-urwzhndjvw-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAyMCBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00359309-qsblckqmva-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCA2IEp1bA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00357779-zshytwparf-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAzMCBKdW4gb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00362053-pgxpakhpnm-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNiBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361670-zpjhmmupdl-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="containt">
+            <div>
+                <h4>The Laughology Project : Atul Khatri, Gurave Kapoor</h4>
+                <p>Bal Gandharva Rang Mandir: Bandra</p>
+            </div>
+            <div>
+                <h4>PAW Petrol live - "Race to the Rescu"</h4>
+                <p>Nita Mukesh Ambani Cultural Center : Mumbai</p>
+            </div>
+            <div>
+                <h4>Zakhir Khan Live</h4>
+                <p>Tata Theatre : NCPA</p>
+            </div>
+            <div>
+                <h4>Mango Festival at JIO World Drive</h4>
+                <p>Jio World Drive: Mumbai</p>
+            </div>
+            <div>
+                <h4>Sagar Wali Qwwali</h4>
+                <p>Dome, NSCI SVP stadium Worli: Mumbai</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="trading-events">
+        <h2>Trending Search Right Now</h2>
+        <div class="trading-events-1 values">
+            <div>
+                <h5>Barbie</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Baipan Bhari Deva</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Jawan</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Oppenheimer</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Insidious: The red door</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Neeyat</h5>
+                <p>Movies</p>
+            </div>
+        </div>
+        <div class="trading-events-2 values">
+            <div>
+                <h5>Mission impossible: Dead Reckoning - Part One</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Satyaprem ki katha</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>1920: Horrors of the Heart</h5>
+                <p>Movies</p>
+            </div>
+            <div>
+                <h5>Gadar 2</h5>
+                <p>Movies</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="eventsHappening">
+        <h2>Exploare Fun Activities</h2>
+        <div class="eventsHappening_images">
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-V2VkLCAxMiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00022344-sqmybjpkab-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAxMyBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00310275-bfznpegvve-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VGh1LCAxMyBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00325467-zrktetbetr-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-V2VkLCAxMiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361621-pwudrdbvhd-portrait.jpg"
+                    alt="">
+
+            </div>
+            <div>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-V2VkLCAxMiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00127447-njetyldnub-portrait.jpg"
+                    alt="">
+
+            </div>
+        </div>
+        <div class="containt">
+            <div>
+                <h4>Mumbai Filmcity Tour with Bollywood Park</h4>
+                <p>Gate No. 1, Dadasaheb Phalke Chitranagri: Mumbai</p>
+            </div>
+            <div>
+                <h4>Imagicaa Water Park</h4>
+                <p>Imagica Water Park (Khopoli): Mumbai</p>
+            </div>
+            <div>
+                <h4>Water Kingdom</h4>
+                <p>Water Kingdom: Mumbai</p>
+            </div>
+            <div>
+                <h4>"The Crown Jewel of Mumbai"- Inside CSMT...</h4>
+                <p>McDonalds opp CSMT Station: Mumbai</p>
+            </div>
+            <div>
+                <h4>BOUNCE Inc Mumbai</h4>
+                <p>BOUNCE In Mumbai</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gohome">
+        <div class="homelink">
+            <a href="/my show webpage/index.html">Home</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="ct-1">
+            <div class="ctt-1">
+                <div class="lg-1">
+                    <img src="https://in.bmscdn.com/webin/common/icons/hut.svg" alt="hut" class="lg-1">
+                </div>
+                <div class="lg-2">List Your Show</div>
+                <div class="lg-3">
+                    Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow
+                </div>
+                <div class="lg-4">
+                    <a href="#">Contact Today</a>
+                </div>
+            </div>
+        </div>
+        <div wrap="wrap" class="ic-sv">
+            <div class="ic-su">
+                <a href="#">
+                    <div class="ic-su-e-1 t_1">
+                        <i class="fa-solid fa-user" id="ico_1"></i>
+                    </div>
+                    <div class="ic-su-e-2 t_2">
+                        24/7 CUSTOMER CARE
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="ic-su-f-1 t_1">
+                        <i class="fa-solid fa-window-restore" id="ico_1"></i>
+                    </div>
+                    <div class="ic-su-f-2 t_2">
+                        RESEND BOOKING CONFIRMATION
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="ic-su-g-1 t_1">
+                        <i class="fa-solid fa-envelope-open-text" id="ico_1"></i>
+                    </div>
+                    <div class="ic-su-g-2 t_2">
+                        SUBSCRIBE TO THE NEWSLETTER
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    MOVIES NOW SHOWING IN MUMBAI
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#">Mission impossible Dead Reckoning-Part One</a>|
+                    <a href="#"> Baipan Bhari Deva</a>|
+                    <a href="#"> Oppenheimer</a>|
+                    <a href="#"> Satyaprem Ki Katha</a>
+                </div>
+            </div>
+        </div>
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    UPCOMING MOVIES IN MUMBAI
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#">Mystery </a>|
+                    <a href="#"> Voice of Sathyanathan </a>|
+                    <a href="#"> Baba Black Sheep</a>|
+                    <a href="#"> Dhamayana </a>|
+                    <a href="#"> Padmini </a>|
+                    <a href="#"> Abaroopa </a>|
+                    <a href="#">Namasthe Ghost</a> |
+                    <a href="#">Baby (2023)</a>
+                    <a href="#">Ajmer 92</a>
+                </div>
+            </div>
+        </div>
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    MOVIES BY GANRE
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#">Darama Movies</a>|
+                    <a href="#"> Action Movies</a>|
+                    <a href="#"> Thriller Movies</a>|
+                    <a href="#"> Adventure Movies</a> |
+                    <a href="#"> Comedian Movies</a>|
+                    <a href="#"> Political Movies</a>|
+                    <a href="#"> Biography Movies</a>|
+                    <a href="#"> War Movies</a>
+                </div>
+            </div>
+        </div>
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    COUNTRIES
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#">Indonesia</a>|
+                    <a href="#"> Singapore</a>|
+                    <a href="#"> UAE</a>|
+                    <a href="#"> Shri Lanka</a>|
+                    <a href="#">West indies</a>
+                </div>
+            </div>
+        </div>
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    HELP
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#">About Us</a>|
+                    <a href="#"> Contact Us</a>|
+                    <a href="#"> Current Opening</a>|
+                    <a href="#"> Press Release</a>|
+                    <a href="#">FAQs</a>
+                </div>
+            </div>
+        </div>
+        <div class="co-mo-n he_ad">
+            <div class="co-mo-n cn-1">
+                <div class="co-mo-n hen">
+                    BOOKMYSHOW EXCLUSIVES
+                </div>
+                <div class="co-mo-n con">
+                    <a href="#"> Lollapalooza India</a>|
+                    <a href="#"> SuperStar</a>|
+                    <a href="#"> BookASmile</a>|
+                    <a href="#"> Corporate Vouchers</a>|
+                    <a href="#"> Gift Cards</a>|
+                    <a href="#">List My Show</a>|
+                    <a href="#">Offers </a>|
+                    <a href="#"> Stram</a>|
+                    <a href="#"> Buzz</a>|
+                    <a href="#"> Movie Trailers</a>|
+                    <a href="#"> Summer Activities</a>
+                </div>
+            </div>
+        </div>
+        <div class="ic_1_h_1">
+            <div class="ic_1_h_2 st_1">
+
+                <div class="ic_1_h2_img st_2">
+                    <div class="ic_1_h2_SpaceLine1"></div>
+                    <a href="/my show webpage/index.html">
+                        <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="bookmyshow">
+                    </a>
+                    <div class="ic_1_h2_SpaceLine1"></div>
+                </div>
+
+                <div class="ic_1_h_3 st_3">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="ic_1_h_5 sbt-3">
+                    <div class="te-2-so-gg ghghj">
+                        Copyright
+                        2023
+                        © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.
+                        <br>
+                        The content and images used on this site are copyright protected and copyrights vests with the
+                        respective owners. The usage of the content and images on this website is intended to promote
+                        the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and
+                        punishable by law.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+</html>
